@@ -1,0 +1,223 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-color-◇light-dark: rgba(38, 50, 56, 1);
+  --dl-size-size-xxlarge: 288px;
+  --dl-color-◇light-light: rgba(255, 255, 255, 1);
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-color-◇light-maincolor: rgba(38, 50, 56, 1);
+  --dl-space-space-threeunits: 48px;
+  --dl-color-default-darkcolor: rgba(38, 50, 56, 1);
+  --dl-color-◇light-iconscolor: rgba(151, 151, 151, 1);
+  --dl-color-◇light-shadecolor: rgba(240, 240, 240, 1);
+  --dl-color-◇light-accentcolor: rgba(231, 76, 60, 1);
+  --dl-color-◇light-primarycolor: rgba(14, 76, 164, 1);
+  --dl-color-◇light-gradientcolor: rgba(213, 0, 249, 1);
+  --dl-color-◇light-tretiarycolor: rgba(255, 187, 18, 1);
+  --dl-color-◇light-secondarycolor: rgba(27, 181, 92, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-◇light-backgroundcolor: rgba(255, 255, 255, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+}
+.content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.48sp•H3Headline {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.14sp•BUTTON {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.24sp•H5Headline {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.12sp•Caption1 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Red Hat Text;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.14sp•Subtitle2 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.34sp•H4Headline {
+  font-size: 34px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.14sp•BUTTON1 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Red Hat Text;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.10sp•OVERLINE {
+  font-size: 10px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.96sp•H1Headline {
+  font-size: 96px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.20sp•H6Headline {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.14sp•Subtitle21 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Red Hat Text;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.10sp•OVERLINE1 {
+  font-size: 10px;
+  font-style: normal;
+  font-family: Red Hat Text;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.14sp•Body2 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.14sp•Body21 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Red Hat Text;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.60sp•H2Headline {
+  font-size: 60px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.16sp•Body1 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.16sp•Body11 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.12sp•Caption {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
